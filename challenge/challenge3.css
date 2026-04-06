@@ -11,19 +11,35 @@ p {display:inline-block;
 
 }
 #teal {
-    height: 200px;
+    height: 166.5px;
     width: 500px;
-    background-color: rgb(84, 238, 238);
+    background-color: rgb(149, 255, 225);
 
 }
 #blue {
-    height: 200px;
+    height: 166.5px;
     width: 500px;
     background-color: rgb(113, 113, 234);
 
 }
 #pink2 {
-    height: 200px;
+    height: 166.5px;
     width: 500px;
     background-color: rgb(207, 136, 220);
 }
+#yellow {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(225, 225, 136);
+    margin-left: 1000px;
+    margin-top: -518px;
+}
+#teal, #blue, #pink2 {
+    display: block;
+    margin-left: 500px;
+    margin-top: -518px;
+}
+#blue, #pink2 {
+    margin-top: -16px;
+}
+
