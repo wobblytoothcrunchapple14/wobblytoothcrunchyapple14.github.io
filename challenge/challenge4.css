@@ -1,0 +1,42 @@
+p {display:inline-block;
+}
+
+#pink {
+    height: 1000px;
+    width: 300px;
+    background-color: rgb(222, 222, 222);
+    margin-top: 300px;
+    
+}
+#teal {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(222, 222, 222);
+    margin-left: -600px;
+}
+#blue {
+    height: 232.5px;
+    width: 450px;
+    background-color: rgb(113, 113, 234);
+
+}
+#pink2 {
+    height: 232.5px;
+    width: 450px;
+    background-color: rgb(207, 136, 220);
+}
+#yellow {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(225, 225, 136);
+    margin-left: 1480px;
+    margin-top: -718px;
+}
+#teal, #blue, #pink2 {
+    display: block;
+    margin-left: 1030px;
+    margin-top: -715px;
+}
+#blue, #pink2 {
+    margin-top: -16px;
+}
