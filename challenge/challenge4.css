@@ -1,40 +1,35 @@
-div{
-    display: inline-block;
-}
-
-#title {
-    font-weight: bold;
+#title{
+    font-size: 70pt;
+    font-weight:bold;
     font-style: italic;
-    margin-left: auto;
+    font-variant-caps: titling-caps;
     text-align: center;
-}
-#p1 {
-    height: 800px;
-    width: 200px;
-    font-style: italic;
-    background-color: grey;
-    margin-left: auto;
-    margin-top: auto;
+    font-family:"Monaco", sans-serif;
 }
 
-#p2 {
-    height: 700px;
-    width: 700px;
+h3{
     font-style: italic;
-    background-color:grey;
-    margin-left: auto;
-   margin-top: auto;
-}
-#p3 {
-    height: 800px;
-    width: 200px;
-    font-style: italic;
-    background-color: grey;
-    margin-left: auto;
-    margin-top: auto;
+    padding-left:15px;
+    
 }
 
+div{
+    background-color: lightgray;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    margin-top: -50px;
+}
 
-#p1, #p2, #p3 {
-    margin-top: auto;
+#leftColumn, #rightColumn{
+    width: 25%;
+}
+#centerColumn{
+    width: 40%
+}
+
+p {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
