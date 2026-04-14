@@ -1,0 +1,24 @@
+p {display: inline-block;
+}
+
+#title {
+    height: 100px;
+    width:2559px;
+    background-color: lightgray;
+    margin-top: 0px;
+    margin-left: -7px;
+    text-align: center;
+   
+
+
+
+}
+#devicesbar-title {
+    height: 400px;
+    width: 2559px;
+    background-color: rgb(139, 69, 69);
+    margin-top:-20px;
+    margin-left: -7px;
+    text-align: center;
+
+}
