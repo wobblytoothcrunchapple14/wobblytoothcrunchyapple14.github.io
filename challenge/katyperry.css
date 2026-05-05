@@ -2,9 +2,9 @@ p{ display: inline-block;
 
 }
 #orangebar {
-    height: 200px;
+    height: 140px;
     width: 2560px;
-    background-color: red;
+    background-color: rgb(255, 47, 0);
     margin-top: -8px;
     margin-left: -8px;
 
@@ -17,8 +17,16 @@ p{ display: inline-block;
     margin-left: -8px;
 }
 #image1 {
-    height: 900px;
-    width: 900px;
+    height: 125px;
+    width: 300px;
+    margin-top: -145px;
+    margin-left: 1080px; 
 }
+#image2 {
+    height: 90px;
+    width:  500px;
+    margin-top: -630px;
+    margin-left:-9px;
 
+}
 
