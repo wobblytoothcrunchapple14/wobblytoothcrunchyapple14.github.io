@@ -1,0 +1,37 @@
+body{
+    background: darkslategrey;
+
+}
+
+* {
+    font-family: 'Courier New'; Courier, monospace;
+}
+
+p{
+    color: limegreen;
+    display: inline-block;
+}
+
+#main-container{
+    margin-left:35%;
+    margin-right: 35%;
+    margin-top: 40vh;
+    border: 1px solid grey;
+    border-radius: 3px
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: darkslategrey;
+    display: inline-block;
+    width: 60%;
+
+}
+button {
+    border: 1px
+    border: 0px solid white;
+    background-color: darkslategrey;
+    color: limegreen;
+    
+}
