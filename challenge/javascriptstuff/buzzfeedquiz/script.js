@@ -58,18 +58,85 @@ function check_q1(){
        score_ChainedToTheRhythm = score_ChainedToTheRhythm + 1;
     }
     else if (q1_a3.checked == true){
-        score_CaliforniaGurls = score_CaliforniaGurls + 1
+        score_CaliforniaGurls = score_CaliforniaGurls + 1;
+        score_LastFridayNight = score_LastFridayNight + 1;
+        score_Birthday = score_Birthday + 1;
+        score_SwishSwish = SwishSwish + 1;
+        score_NeverReallyOver = NeverReallyOver +1;
+        
     }
     else if (q1_a4.checked == true){
-        score_ = score_ + 1
+        score_PartOfMe = score_PartOfMe +1;
+        score_WideAwake = score_WideAwake +1;
+        score_WomansWorld = score_WomansWorld +1;
+        score_Roar = score_Roar +1;
+        score_CryAboutItLater = score_CryAboutItLater +1;
+        score_Daisies = score_Daisies + 1;
+        score_Firework = score_Firework + 1; 
+        score_NeverReallyOver = score_NeverReallyOver = +1;
+
+
     }
 }
 
 function check_q2(){
+    if(q2_a1.checked == true){
+        score_CaliforniaGurls = score_CaliforniaGurls +1;
+        score_CryAboutItLater = score_CryAboutItLater +1;
+        score_Unconditionally = score_Unconditionally +1;
+        score_Roar = score_Roar +1;
+        score_Peacock = score_Peacock +1;
+        score_Daisies = score_Daisies +1;
+    }
 
+    else if (q2_a2.checked == true){
+        score_IKissedAGirl = score IKissedAGirl +1;
+        score_CryAboutItLater = score_CryAboutItLater +1;
+        score_SwishSwish = score_SwishSwish +1;
+        score_Unconditionally = score_Unconditionally +1;
+        score_DarkHorse = score_DarkHorse +1;
+        score_Roar = score_Roar +1;
+    }
+    else if (q2_a3.checked == true){
+        score_IKissedAGirl = score_IKissedAGirl +1;
+        score_CryAboutItLater = scoreCryAboutItLater +1;
+        score_DressinUp = score_DressinUp +1;
+        score_Tucked +1;
+        score_Unconditionally = score_Unconditionally +1;
+    }
+    else if (q2_a4.checked == true){
+        score_LegendaryLovers = score_LegendaryLovers +1;
+        score_ChainedToTheRhythym + 1;
+        score_CaliforniaGurls = score_CaliforniaGurls +1;
+        score_TheOneThatGotAway = score_TheOneThatGotAway +1;
+        score_Unconditionally = score_Unconditionally +1;
+        score_ThinkingOfYou = score_ThinkingOfYou +1;
+        score_DarkHorse = score_DarkHorse +1;
+        score_Peacock = score_Peacock +1;
+        score_HarleysInHawaii = score_HarleysInHawaii +1;
+
+    }
+    else if (q2_a5.checked == true){
+        score_HotNCold = score_HotNCold +1;
+        score_Unconditionally = score_Unconditionally +1;
+        score_TeenageDream = score_TeenageDream +1;
+        score_SaveAsDraft = score_SaveAsDraft +1;
+
+    }
 }
 function check_q3(){
+    if(q3_a1.checked ==true){
+        score_HarleysInHawaii = score_HarleysInHawaii +1;
+        score_Roar = score_Roar +1;
+        score_LegendaryLovers = score_LegendaryLovers +1;
+        score_Unconditionally = score_Unconditionally +1;
+        score_WideAwake = score_WideAwake +1;
+        score_TeenageDream = score_TeenageDream +1;
+        score_Daisies = score_Daisies +1;
+        score_SaveAsDraft = score_SaveAsDraft +1;
+        score_TheOneThatGotAway = score_TheOneThatGotAway +1;
 
+    }
 }
 function check_q4(){
 
