@@ -250,9 +250,31 @@ function check_q4() {
             if (maxKey == "score_Unconditionally"){
 
             }
-            if (maxKey == "score_")
+            if (maxKey == "score_ChainedToTheRhythym"){
 
-        }
+            }
+            if (maxKey == "score_SwishSwish"){
+
+            }
+            if (maxKey == "score_SaveAsDraft"){
+
+            }
+            if (maxKey == "score_Daisies"){
+
+            }
+            if (maxKey == "score_HarleysInHawaii"){
+
+            }
+            if (maxKey == "score_Tucked"){
+
+            }
+            if (maxKey == "score_CryAboutItLater"){
+
+            }
+            if (maxKey == "score_WomansWorld"){
+                
+            }
+      
 
 
 
