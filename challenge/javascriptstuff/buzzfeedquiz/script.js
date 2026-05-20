@@ -35,7 +35,7 @@ var score_Tucked = 0;
 var score_HarleysInHawaii = 0;
 var score_WomansWorld = 0;
 
-const results = { score_Birthday, score_IKissedAGirl, score_HotNCold, score_ThinkingOfYou, CaliforniaGurls, score_TeenageDream, score_Firework, score_ET, score_LastFridayNight, score_TheOneThatGotAway, score_PartOfMe, score_WideAwake, score_Peacock, score_DressinUp, score_Roar, score_Unconditionally, score_LegendaryLovers, score_DarkHorse, score_ChainedToTheRhythm, score_SwishSwish, score_SaveAsDraft, score_Daisies, score_NeverReallyOver, score_CryAboutItLater, score_Tucked, score_HarleysInHawaii, score_WomansWorld}
+const results = { score_Birthday, score_IKissedAGirl, score_HotNCold, score_ThinkingOfYou, score_CaliforniaGurls, score_TeenageDream, score_Firework, score_ET, score_LastFridayNight, score_TheOneThatGotAway, score_PartOfMe, score_WideAwake, score_Peacock, score_DressinUp, score_Roar, score_Unconditionally, score_LegendaryLovers, score_DarkHorse, score_ChainedToTheRhythm, score_SwishSwish, score_SaveAsDraft, score_Daisies, score_NeverReallyOver, score_CryAboutItLater, score_Tucked, score_HarleysInHawaii, score_WomansWorld }
 
 function check_q1() {
 
@@ -79,6 +79,7 @@ function check_q1() {
 
 
     }
+    check_q2();
 }
 
 function check_q2() {
@@ -92,7 +93,7 @@ function check_q2() {
     }
 
     else if (q2_a2.checked == true) {
-        score_IKissedAGirl = score IKissedAGirl + 1;
+        score_IKissedAGirl = score_IKissedAGirl + 1;
         score_CryAboutItLater = score_CryAboutItLater + 1;
         score_SwishSwish = score_SwishSwish + 1;
         score_Unconditionally = score_Unconditionally + 1;
@@ -125,6 +126,7 @@ function check_q2() {
         score_SaveAsDraft = score_SaveAsDraft + 1;
 
     }
+
 }
 function check_q3() {
     if (q3_a1.checked == true) {
@@ -157,6 +159,7 @@ function check_q3() {
         score_Firework = score_Firework + 1;
         score_PartOfMe = score_PartOfMe + 1;
     }
+
 }
 function check_q4() {
     if (q4_a1.checked == true) {
@@ -182,100 +185,100 @@ function check_q4() {
     else if (q4_a4.checked == true) {
         score_WomansWorld = score_WomansWorld + 1;
         score_DarkHorse = score_DarkHorse + 1;
+    }
 
+}
+function calculate_result() {
 
-        function calculate_result() {
+    let maxKey = "";
+    let maxValue = -Infinity;
 
-            let maxKey = "";
-            let maxValue = -Infinity;
+    for (const [key, value] of Object.entries(results)) {
+        if (value > maxValue) {
+            maxValue = value;
+            maxKey = key;
+        }
+    }
+var result = document.getElementById("q1-a1");
+    if (maxKey == "score_birthday") {
+getElementByID.result
+    }
+    if (maxKey == "score_IKissedAGirl") {
 
-            for (const [key, value] of Object.entries(results)) {
-                if (value > maxValue) {
-                    maxValue = value;
-                    maxKey = key;
-                }
-            }
+    }
+    if (maxKey == "score_HotNCold") {
 
-            if (maxKey == "score_birthday"){
+    }
+    if (maxKey == "score_ThinkingOfYou") {
 
-            } 
-            if (maxKey == "score_IKissedAGirl"){
+    }
+    if (maxKey == "score_ThinkingOfYou") {
 
-            }
-            if (maxKey == "score_HotNCold"){
+    }
+    if (maxKey == "score_CaliforniaGurls") {
 
-            }
-            if (maxKey == "score_ThinkingOfYou"){
+    }
+    if (maxKey == "score_TeenageDream") {
 
-            }
-            if (maxKey == "score_ThinkingOfYou"){
+    }
+    if (maxKey == "score_Firework") {
 
-            }
-            if (maxKey == "score_CaliforniaGurls"){
+    }
+    if (maxKey == "score_ET") {
 
-            }
-            if (maxKey == "score_TeenageDream"){
+    }
+    if (maxKey == "score_LastFridayNights") {
 
-            }
-            if (maxKey == "score_Firework"){
+    }
+    if (maxKey == "score_TheOneThatGotAway") {
 
-            }
-            if (maxKey == "score_ET"){
+    }
+    if (maxKey == "score_PartOfMe") {
 
-            }
-            if (maxKey == "score_LastFridayNights"){
+    }
+    if (maxKey == "score_WideAwake") {
 
-            }
-            if (maxKey == "score_TheOneThatGotAway"){
+    }
+    if (maxKey == "score_Peacock") {
 
-            }
-            if (maxKey == "score_PartOfMe"){
+    }
+    if (maxKey == "score_DressinUp") {
 
-            }
-            if (maxKey == "score_WideAwake"){
+    }
+    if (maxKey == "score_Roar") {
 
-            }
-            if (maxKey == "score_Peacock"){
+    }
+    if (maxKey == "score_LegendaryLovers") {
 
-            }
-            if (maxKey == "score_DressinUp"){
+    }
+    if (maxKey == "score_Unconditionally") {
 
-            }
-            if (maxKey == "score_Roar"){
+    }
+    if (maxKey == "score_ChainedToTheRhythym") {
 
-            }
-            if (maxKey == "score_LegendaryLovers"){
+    }
+    if (maxKey == "score_SwishSwish") {
 
-            }
-            if (maxKey == "score_Unconditionally"){
+    }
+    if (maxKey == "score_SaveAsDraft") {
 
-            }
-            if (maxKey == "score_ChainedToTheRhythym"){
+    }
+    if (maxKey == "score_Daisies") {
 
-            }
-            if (maxKey == "score_SwishSwish"){
+    }
+    if (maxKey == "score_HarleysInHawaii") {
 
-            }
-            if (maxKey == "score_SaveAsDraft"){
+    }
+    if (maxKey == "score_Tucked") {
 
-            }
-            if (maxKey == "score_Daisies"){
+    }
+    if (maxKey == "score_CryAboutItLater") {
 
-            }
-            if (maxKey == "score_HarleysInHawaii"){
+    }
+    if (maxKey == "score_WomansWorld") {
 
-            }
-            if (maxKey == "score_Tucked"){
+    }
 
-            }
-            if (maxKey == "score_CryAboutItLater"){
+}
 
-            }
-            if (maxKey == "score_WomansWorld"){
-                
-            }
-      
-
-
-
-        submit_button.addEventListener("click", check_q1);
+submit_button.addEventListener("click", check_q1);
